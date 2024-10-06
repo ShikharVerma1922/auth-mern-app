@@ -39,7 +39,7 @@ function Signup() {
       return handleError("all fileds are required");
     }
     try {
-      const url = "http://localhost:8080/auth/signup";
+      const url = "https://auth-mern-app-server.onrender.com/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
