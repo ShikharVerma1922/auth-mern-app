@@ -39,7 +39,7 @@ function Signup() {
       return handleError("all fileds are required");
     }
     try {
-      const url = "https://auth-mern-app-server.onrender.com/auth/signup";
+      const url = "https://auth-mern-app-api-nine.vercel.app/auth/signup";
       const response = await fetch(url, {
         method: "POST",
         headers: {
